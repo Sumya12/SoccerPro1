@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.login_css .main_login_window{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color : #3c4852;
+    height:840px;;
+}
+.login_css .login_inside{
+    /*border-top:2px solid #193053;
+    border-right: 2px solid #193053;
+    border-left: 2px solid #193053;
+    border-bottom:7px solid #193053;
+    border-radius:30px;*/
+    background-color: white;
+}
+.login_css .welcome_back{
+    color:#fbb105;
+    font-family: 'Crimson Text', serif;
+    letter-spacing:3px;
+}
+.login_css .login_to_your_acc{
+    font-family: 'Lilita One', cursive;
+    letter-spacing:2px;
+
+    /*background-color:#ffd53a;
+    border-top:2px solid #193053;
+    border-right: 2px solid #193053;
+    border-left: 2px solid #193053;
+    border-bottom:7px solid #193053;*/
+    color:#3c4852;;
+}
+.login_css .input{
+    /*border:none;
+    border-top:2px solid #5f687c;
+    border-right: 2px solid #5f687c;
+    border-left: 2px solid #5f687c;*/
+    border-bottom:2px solid #3c4852;
+    /*border-radius:10px;*/
+    /*color:lightgrey;*/
+}
+.login_css .login_page_outside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_css input {
+    border:none;
+}
+.login_css .forgot_password{
+    background-color:#ffd53a;
+    border-top:2px solid #193053;
+    border-right: 2px solid #193053;
+    border-left: 2px solid #193053;
+    border-bottom:7px solid #193053;
+
+}
+
+.login_css .login_button{
+    /*background-color:#ffd53a;*/
+    background-color : #3c4852;
+    /*border-top:2px solid #193053;
+    border-right: 2px solid #193053;
+    border-left: 2px solid #193053;
+    border-bottom:7px solid #193053;*/
+    color:white;
+    letter-spacing:4px;
+}
+.login_css .login_button:hover{
+    background-color:white;
+    border:2px solid #3c4852;
+    color : #3c4852;
+    border-radius: 10px ;
+}
+
+.login_css .register_here:hover{
+    font-weight:bold;
+}
+.login_css input:focus {
+    outline: none /* Removes the border when the input is clicked */
+}
